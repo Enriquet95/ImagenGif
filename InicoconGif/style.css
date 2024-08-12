@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(12,15,29,1) 0%, rgba(37,32,33,1) 100%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color: aqua;
+    text-align:center;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    padding-top: 7vh;
+    margin-bottom: 5vh;
+}   
+h2 span{
+    color: white;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.item{
+    width: 100vh;
+    height: 55vh;
+    position: relative;
+    background-image: var(--url);
+    background-position: center;
+    background-size: 90vh;
+    margin: 1vw;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0,0, 0.5);
+}
+.overlay{
+    background: rgba(0, 0,0, 0.5);
+    border-radius: 3vw;
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    opacity: 0   ;
+    background: rgba(0, 0,0, 0.5);
+}
+.menu  {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    border-radius: 0 0 3vw 3vw;
+    transform: translateX(-50%);
+    background: linear-gradient();
+    opacity: 1 ;
+}
+.menu label{
+    color: aliceblue;
+    display: block;
+    font-size: 20px;
+    letter-spacing: -2px;
+    word-spacing: -10px;
+    text-transform: capitalize;
+    overflow-x: hidden;
+    text-shadow: 0 0 10px 2px rgba(0, 0,0, 0.5);
+}
